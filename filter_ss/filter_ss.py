@@ -22,7 +22,7 @@ class App:
                           ('Comma separated values', '*.csv'),
                           ('Old excel', '*.xls'),
                           ('Current excel','*.xlsx'))
-        #self.filetypes = ()
+        self.filetypes = () # This is more trouble than it is worth
 
         left = 20
         entryW = 350
